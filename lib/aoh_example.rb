@@ -14,8 +14,6 @@ def assembled_aoh
     KATE_G,
     BRUCE_G
     ]
-  # Build an array that contains (or, "nests") the constants into a single
-  # Array. Ruby constants are denoted by ALL_CAPS
 end
 
 def literal_aoh
@@ -35,6 +33,4 @@ end
 def aoh_update(aoh, row, key, new_value)
   aoh[row][key] = new_value
   return aoh
-  # Update the AoH data at row and key to have the value of new_value
-  # Return the updated AoH
 end
